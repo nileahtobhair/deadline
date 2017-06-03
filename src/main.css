@@ -1,0 +1,82 @@
+.deadline{
+  width:70%;
+  margin:0 auto;
+  text-align: center;
+}
+input.enterdate{
+  height:45px;
+  margin:0 auto;
+  display: block;
+  margin-bottom:50px;
+  width:50%;
+  font-size: 16px; 
+  margin-top:30px;
+}
+.deadline img{
+  margin-right:10px;
+  height:300px;
+}
+.explanation-blurb{
+  margin-top:50px;
+  font-family: monospace;
+}
+p {
+  font-family: monospace;
+}
+button{
+  padding:10px;
+  background-color: cadetblue;
+  border-radius: 2px;
+  border:none;
+}
+.main-logo{
+  width:100px;
+  margin-left:15px;
+  z-index:9999;
+}
+.logo-container{
+  background-color: cadetblue;
+  width:115px;
+  height:50px;
+  position: absolute;
+  top:27px;
+  margin-left: 10px;
+  z-index:-1;
+}
+.image-container{
+  background-color: cadetblue;
+  padding:35px 0px;
+}
+.header{
+  padding:5px 10px 0px 10px;
+  margin-bottom:40px;
+  position: relative;
+}
+.reset{
+  position: absolute;
+  right:25px;
+  padding:10px;
+  top:15px;
+  font-family: monospace;
+  font-size:16px;
+  cursor:pointer;
+}
+
+@media (max-width:499px){
+  .deadline .image-container img.digit-image{
+    height:85px;
+  }
+}
+@media (max-width:899px){
+  .deadline img.digit-image{
+    height:135px;
+  }
+}
+@media (max-width: 1099px){
+  .deadline img{
+    height:265px;
+  }
+  .deadline{
+    width:80%;
+  }
+}

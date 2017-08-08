@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import moment from '../public/moment.js';
-import './main.css';
+// eslint-disable-next-line
+import moment from './../public/moment.js';
+import './Main.css';
 import logo from '../public/deadline.svg';
 import '../node_modules/jQuery/tmp/jquery.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';

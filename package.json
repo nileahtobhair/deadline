@@ -12,13 +12,12 @@
     "jQuery": "^1.7.4",
     "react-scripts": "0.9.5"
   },
-  "homepage": "niamhlawlor.com/deadline",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy" : "npm run build&&gh-pages -d build"
   }
 }
